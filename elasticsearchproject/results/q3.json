@@ -1,0 +1,39 @@
+{
+  "took": 7,
+  "timed_out": false,
+  "_shards": {
+    "total": 53,
+    "successful": 53,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 3818,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "courses-idpf1-platform-edx",
+        "_type": "_doc",
+        "_id": "MbBbUn4B4LcpPzHKyrM5",
+        "_score": null,
+        "_source": {
+          "name": "Fundamentals of Non-Destructive Testing",
+          "presenter": "['/university/purdue']",
+          "platform": "edX",
+          "language": "English",
+          "level": "Intermediate",
+          "duration": "5 weeks long, 2-3 hours a week",
+          "url": "https://www.classcentral.com/course/fundamentals-of-non-destructive-testing-22815",
+          "certificate_price": 750,
+          "categories": "['Science', 'Materials Science']",
+          "subtitles": "['English']",
+          "subtitles_count": 1
+        },
+        "sort": 750
+      }
+    ]
+  }
+}

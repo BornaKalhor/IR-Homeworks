@@ -1,0 +1,30 @@
+{
+  "took": 4,
+  "timed_out": false,
+  "_shards": {
+    "total": 35,
+    "successful": 35,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "byindex": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 26439,
+      "buckets": [
+        {
+          "key": "courses-idpf1-subtitle-english",
+          "doc_count": 16764
+        }
+      ]
+    }
+  }
+}

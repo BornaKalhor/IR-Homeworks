@@ -1,0 +1,4052 @@
+{
+  "took": 34,
+  "timed_out": false,
+  "num_reduce_phases": 2,
+  "_shards": {
+    "total": 575,
+    "successful": 575,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "byindex": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "courses-idpf1-category-programming",
+          "doc_count": 11189,
+          "avg_cert": {
+            "value": 5.074835491325317
+          }
+        },
+        {
+          "key": "courses-idpf1-category-business",
+          "doc_count": 10219,
+          "avg_cert": {
+            "value": 13.597831950610907
+          }
+        },
+        {
+          "key": "courses-idpf1-category-computer_science",
+          "doc_count": 7021,
+          "avg_cert": {
+            "value": 10.617349294562775
+          }
+        },
+        {
+          "key": "courses-idpf1-category-art_&_design",
+          "doc_count": 6121,
+          "avg_cert": {
+            "value": 4.707630911560507
+          }
+        },
+        {
+          "key": "courses-idpf1-category-programming_languages",
+          "doc_count": 4938,
+          "avg_cert": {
+            "value": 4.9057265227987195
+          }
+        },
+        {
+          "key": "courses-idpf1-category-humanities",
+          "doc_count": 3157,
+          "avg_cert": {
+            "value": 16.722427842433518
+          }
+        },
+        {
+          "key": "courses-idpf1-category-social_sciences",
+          "doc_count": 3097,
+          "avg_cert": {
+            "value": 23.593177776010258
+          }
+        },
+        {
+          "key": "courses-idpf1-category-digital_media",
+          "doc_count": 2638,
+          "avg_cert": {
+            "value": 2.1748490250408876
+          }
+        },
+        {
+          "key": "courses-idpf1-category-science",
+          "doc_count": 2339,
+          "avg_cert": {
+            "value": 25.04817487684872
+          }
+        },
+        {
+          "key": "courses-idpf1-category-marketing",
+          "doc_count": 2303,
+          "avg_cert": {
+            "value": 6.327826954207626
+          }
+        },
+        {
+          "key": "courses-idpf1-category-visual_arts",
+          "doc_count": 2300,
+          "avg_cert": {
+            "value": 3.883597995509272
+          }
+        },
+        {
+          "key": "courses-idpf1-category-engineering",
+          "doc_count": 2292,
+          "avg_cert": {
+            "value": 21.056571324250253
+          }
+        },
+        {
+          "key": "courses-idpf1-category-health_&_medicine",
+          "doc_count": 2222,
+          "avg_cert": {
+            "value": 21.519973469038035
+          }
+        },
+        {
+          "key": "courses-idpf1-category-personal_development",
+          "doc_count": 2135,
+          "avg_cert": {
+            "value": 12.77020337732391
+          }
+        },
+        {
+          "key": "courses-idpf1-category-data_science",
+          "doc_count": 2053,
+          "avg_cert": {
+            "value": 18.574286903106348
+          }
+        },
+        {
+          "key": "courses-idpf1-category-cloud_computing",
+          "doc_count": 1990,
+          "avg_cert": {
+            "value": 4.9409926524713415
+          }
+        },
+        {
+          "key": "courses-idpf1-category-education_&_teaching",
+          "doc_count": 1842,
+          "avg_cert": {
+            "value": 12.460313838933889
+          }
+        },
+        {
+          "key": "courses-idpf1-category-digital_marketing",
+          "doc_count": 1759,
+          "avg_cert": {
+            "value": 4.032090389843757
+          }
+        },
+        {
+          "key": "courses-idpf1-category-web_development",
+          "doc_count": 1663,
+          "avg_cert": {
+            "value": 2.1873136011147745
+          }
+        },
+        {
+          "key": "courses-idpf1-category-business_software",
+          "doc_count": 1389,
+          "avg_cert": {
+            "value": 3.1196975721739624
+          }
+        },
+        {
+          "key": "courses-idpf1-category-python",
+          "doc_count": 1372,
+          "avg_cert": {
+            "value": 6.555568779870303
+          }
+        },
+        {
+          "key": "courses-idpf1-category-information_technology",
+          "doc_count": 1320,
+          "avg_cert": {
+            "value": 4.454171680681633
+          }
+        },
+        {
+          "key": "courses-idpf1-category-adobe",
+          "doc_count": 1240,
+          "avg_cert": {
+            "value": 0.30346367051524503
+          }
+        },
+        {
+          "key": "courses-idpf1-category-finance",
+          "doc_count": 1184,
+          "avg_cert": {
+            "value": 12.638359771386996
+          }
+        },
+        {
+          "key": "courses-idpf1-category-microsoft_office",
+          "doc_count": 1093,
+          "avg_cert": {
+            "value": 2.280831268917827
+          }
+        },
+        {
+          "key": "courses-idpf1-category-mathematics",
+          "doc_count": 993,
+          "avg_cert": {
+            "value": 16.791365729117803
+          }
+        },
+        {
+          "key": "courses-idpf1-category-javascript",
+          "doc_count": 966,
+          "avg_cert": {
+            "value": 2.407583382805929
+          }
+        },
+        {
+          "key": "courses-idpf1-category-cybersecurity",
+          "doc_count": 957,
+          "avg_cert": {
+            "value": 10.683511163000029
+          }
+        },
+        {
+          "key": "courses-idpf1-category-software_development",
+          "doc_count": 864,
+          "avg_cert": {
+            "value": 4.4512556184221195
+          }
+        },
+        {
+          "key": "courses-idpf1-category-machine_learning",
+          "doc_count": 861,
+          "avg_cert": {
+            "value": 10.775496891566686
+          }
+        },
+        {
+          "key": "courses-idpf1-category-strategic_management",
+          "doc_count": 837,
+          "avg_cert": {
+            "value": 21.56639039416752
+          }
+        },
+        {
+          "key": "courses-idpf1-category-self_improvement",
+          "doc_count": 805,
+          "avg_cert": {
+            "value": 10.41601112318335
+          }
+        },
+        {
+          "key": "courses-idpf1-category-project_management",
+          "doc_count": 803,
+          "avg_cert": {
+            "value": 15.848591823506622
+          }
+        },
+        {
+          "key": "courses-idpf1-category-management_&_leadership",
+          "doc_count": 778,
+          "avg_cert": {
+            "value": 26.6350445502215
+          }
+        },
+        {
+          "key": "courses-idpf1-category-artificial_intelligence",
+          "doc_count": 770,
+          "avg_cert": {
+            "value": 15.05280345817665
+          }
+        },
+        {
+          "key": "courses-idpf1-category-microsoft_azure",
+          "doc_count": 763,
+          "avg_cert": {
+            "value": 0.9335087679941719
+          }
+        },
+        {
+          "key": "courses-idpf1-category-communication_skills",
+          "doc_count": 710,
+          "avg_cert": {
+            "value": 17.21048872638756
+          }
+        },
+        {
+          "key": "courses-idpf1-category-nutrition_&_wellness",
+          "doc_count": 654,
+          "avg_cert": {
+            "value": 13.748121238265197
+          }
+        },
+        {
+          "key": "courses-idpf1-category-entrepreneurship",
+          "doc_count": 644,
+          "avg_cert": {
+            "value": 13.604075464402667
+          }
+        },
+        {
+          "key": "courses-idpf1-category-music",
+          "doc_count": 640,
+          "avg_cert": {
+            "value": 6.688291591405869
+          }
+        },
+        {
+          "key": "courses-idpf1-category-microsoft_excel",
+          "doc_count": 634,
+          "avg_cert": {
+            "value": 3.2301963360903767
+          }
+        },
+        {
+          "key": "courses-idpf1-category-electrical_engineering",
+          "doc_count": 629,
+          "avg_cert": {
+            "value": 21.2179218756186
+          }
+        },
+        {
+          "key": "courses-idpf1-category-devops",
+          "doc_count": 618,
+          "avg_cert": {
+            "value": 7.848032721423794
+          }
+        },
+        {
+          "key": "courses-idpf1-category-java",
+          "doc_count": 607,
+          "avg_cert": {
+            "value": 4.385260285027141
+          }
+        },
+        {
+          "key": "courses-idpf1-category-biology",
+          "doc_count": 605,
+          "avg_cert": {
+            "value": 22.697153567479663
+          }
+        },
+        {
+          "key": "courses-idpf1-category-data_analysis",
+          "doc_count": 602,
+          "avg_cert": {
+            "value": 19.234439339748647
+          }
+        },
+        {
+          "key": "courses-idpf1-category-health_care",
+          "doc_count": 597,
+          "avg_cert": {
+            "value": 27.18592435111552
+          }
+        },
+        {
+          "key": "courses-idpf1-category-adobe_photoshop",
+          "doc_count": 586,
+          "avg_cert": {
+            "value": 0.10569330612547162
+          }
+        },
+        {
+          "key": "courses-idpf1-category-social_media_marketing",
+          "doc_count": 584,
+          "avg_cert": {
+            "value": 3.725939344053399
+          }
+        },
+        {
+          "key": "courses-idpf1-category-language_learning",
+          "doc_count": 576,
+          "avg_cert": {
+            "value": 15.301226768228743
+          }
+        },
+        {
+          "key": "courses-idpf1-category-environmental_science",
+          "doc_count": 571,
+          "avg_cert": {
+            "value": 29.21054267382246
+          }
+        },
+        {
+          "key": "courses-idpf1-category-databases",
+          "doc_count": 565,
+          "avg_cert": {
+            "value": 8.957960403915001
+          }
+        },
+        {
+          "key": "courses-idpf1-category-career_development",
+          "doc_count": 549,
+          "avg_cert": {
+            "value": 11.021176437211167
+          }
+        },
+        {
+          "key": "courses-idpf1-category-sustainability",
+          "doc_count": 521,
+          "avg_cert": {
+            "value": 36.534117830463195
+          }
+        },
+        {
+          "key": "courses-idpf1-category-computer_networking",
+          "doc_count": 499,
+          "avg_cert": {
+            "value": 5.926195603334354
+          }
+        },
+        {
+          "key": "courses-idpf1-category-php",
+          "doc_count": 496,
+          "avg_cert": {
+            "value": 0.24974305399002567
+          }
+        },
+        {
+          "key": "courses-idpf1-category-mobile_development",
+          "doc_count": 495,
+          "avg_cert": {
+            "value": 4.384257711545385
+          }
+        },
+        {
+          "key": "courses-idpf1-category-design_&_creativity",
+          "doc_count": 491,
+          "avg_cert": {
+            "value": 17.977630141310684
+          }
+        },
+        {
+          "key": "courses-idpf1-category-c_",
+          "doc_count": 481,
+          "avg_cert": {
+            "value": 0.974994258920269
+          }
+        },
+        {
+          "key": "courses-idpf1-category-game_development",
+          "doc_count": 481,
+          "avg_cert": {
+            "value": 8.013228220156474
+          }
+        },
+        {
+          "key": "courses-idpf1-category-e-commerce",
+          "doc_count": 476,
+          "avg_cert": {
+            "value": 1.7026349957249745
+          }
+        },
+        {
+          "key": "courses-idpf1-category-amazon_web_services_(aws)",
+          "doc_count": 467,
+          "avg_cert": {
+            "value": 7.0485858386282745
+          }
+        },
+        {
+          "key": "courses-idpf1-category-sales",
+          "doc_count": 462,
+          "avg_cert": {
+            "value": 4.1740833257699945
+          }
+        },
+        {
+          "key": "courses-idpf1-category-animation",
+          "doc_count": 459,
+          "avg_cert": {
+            "value": 1.0855315692544243
+          }
+        },
+        {
+          "key": "courses-idpf1-category-painting",
+          "doc_count": 458,
+          "avg_cert": {
+            "value": 0.283773228591186
+          }
+        },
+        {
+          "key": "courses-idpf1-category-sociology",
+          "doc_count": 456,
+          "avg_cert": {
+            "value": 18.694163332905685
+          }
+        },
+        {
+          "key": "courses-idpf1-category-photography",
+          "doc_count": 443,
+          "avg_cert": {
+            "value": 2.236004157744466
+          }
+        },
+        {
+          "key": "courses-idpf1-category-grammar_&_writing",
+          "doc_count": 442,
+          "avg_cert": {
+            "value": 12.191821652839627
+          }
+        },
+        {
+          "key": "courses-idpf1-category-physics",
+          "doc_count": 441,
+          "avg_cert": {
+            "value": 19.849086158129634
+          }
+        },
+        {
+          "key": "courses-idpf1-category-html_&_css",
+          "doc_count": 433,
+          "avg_cert": {
+            "value": 0.47679967197479883
+          }
+        },
+        {
+          "key": "courses-idpf1-category-disease_&_disorders",
+          "doc_count": 428,
+          "avg_cert": {
+            "value": 26.158395724875906
+          }
+        },
+        {
+          "key": "courses-idpf1-category-economics",
+          "doc_count": 424,
+          "avg_cert": {
+            "value": 19.32544490076461
+          }
+        },
+        {
+          "key": "courses-idpf1-category-r_programming",
+          "doc_count": 404,
+          "avg_cert": {
+            "value": 5.759941582632537
+          }
+        },
+        {
+          "key": "courses-idpf1-category-data_visualization",
+          "doc_count": 385,
+          "avg_cert": {
+            "value": 8.577090404560039
+          }
+        },
+        {
+          "key": "courses-idpf1-category-drawing",
+          "doc_count": 378,
+          "avg_cert": {
+            "value": 0.4223423962870603
+          }
+        },
+        {
+          "key": "courses-idpf1-category-statistics_&_probability",
+          "doc_count": 372,
+          "avg_cert": {
+            "value": 21.6037693613319
+          }
+        },
+        {
+          "key": "courses-idpf1-category-history",
+          "doc_count": 371,
+          "avg_cert": {
+            "value": 19.111512058186083
+          }
+        },
+        {
+          "key": "courses-idpf1-category-law",
+          "doc_count": 369,
+          "avg_cert": {
+            "value": 17.731762870540464
+          }
+        },
+        {
+          "key": "courses-idpf1-category-esl",
+          "doc_count": 362,
+          "avg_cert": {
+            "value": 8.58593337970544
+          }
+        },
+        {
+          "key": "courses-idpf1-category-test_prep",
+          "doc_count": 358,
+          "avg_cert": {
+            "value": 5.6907680207790605
+          }
+        },
+        {
+          "key": "courses-idpf1-category-big_data",
+          "doc_count": 355,
+          "avg_cert": {
+            "value": 16.88419423707774
+          }
+        },
+        {
+          "key": "courses-idpf1-category-industry_specific",
+          "doc_count": 350,
+          "avg_cert": {
+            "value": 35.85468498502459
+          }
+        },
+        {
+          "key": "courses-idpf1-category-google_cloud_platform_(gcp)",
+          "doc_count": 340,
+          "avg_cert": {
+            "value": 3.248618470921236
+          }
+        },
+        {
+          "key": "courses-idpf1-category-teacher_professional_development",
+          "doc_count": 331,
+          "avg_cert": {
+            "value": 15.198759125078553
+          }
+        },
+        {
+          "key": "courses-idpf1-category-business_intelligence",
+          "doc_count": 327,
+          "avg_cert": {
+            "value": 20.647686147543997
+          }
+        },
+        {
+          "key": "courses-idpf1-category-3d_design",
+          "doc_count": 318,
+          "avg_cert": {
+            "value": 0.38882209369971316
+          }
+        },
+        {
+          "key": "courses-idpf1-category-public_health",
+          "doc_count": 317,
+          "avg_cert": {
+            "value": 20.066612249669216
+          }
+        },
+        {
+          "key": "courses-idpf1-category-internet_of_things",
+          "doc_count": 306,
+          "avg_cert": {
+            "value": 11.865311014885997
+          }
+        },
+        {
+          "key": "courses-idpf1-category-trading",
+          "doc_count": 294,
+          "avg_cert": {
+            "value": 1.7805650315317167
+          }
+        },
+        {
+          "key": "courses-idpf1-category-algorithms_and_data_structures",
+          "doc_count": 293,
+          "avg_cert": {
+            "value": 16.18995810694255
+          }
+        },
+        {
+          "key": "courses-idpf1-category-accounting",
+          "doc_count": 292,
+          "avg_cert": {
+            "value": 18.51649668445326
+          }
+        },
+        {
+          "key": "courses-idpf1-category-software_testing",
+          "doc_count": 282,
+          "avg_cert": {
+            "value": 0.9883448519605271
+          }
+        },
+        {
+          "key": "courses-idpf1-category-sql",
+          "doc_count": 279,
+          "avg_cert": {
+            "value": 6.594554675522671
+          }
+        },
+        {
+          "key": "courses-idpf1-category-psychology",
+          "doc_count": 268,
+          "avg_cert": {
+            "value": 17.291700395185558
+          }
+        },
+        {
+          "key": "courses-idpf1-category-wordpress",
+          "doc_count": 262,
+          "avg_cert": {
+            "value": 0.15759867020235716
+          }
+        },
+        {
+          "key": "courses-idpf1-category-agile",
+          "doc_count": 252,
+          "avg_cert": {
+            "value": 17.66695207262796
+          }
+        },
+        {
+          "key": "courses-idpf1-category-literature",
+          "doc_count": 249,
+          "avg_cert": {
+            "value": 22.957040767593078
+          }
+        },
+        {
+          "key": "courses-idpf1-category-customer_relationship_management",
+          "doc_count": 248,
+          "avg_cert": {
+            "value": 1.3811208894175868
+          }
+        },
+        {
+          "key": "courses-idpf1-category-.net",
+          "doc_count": 246,
+          "avg_cert": {
+            "value": 0.4483367950935674
+          }
+        },
+        {
+          "key": "courses-idpf1-category-ethical_hacking",
+          "doc_count": 243,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-online_education",
+          "doc_count": 240,
+          "avg_cert": {
+            "value": 9.895584905147553
+          }
+        },
+        {
+          "key": "courses-idpf1-category-political_science",
+          "doc_count": 235,
+          "avg_cert": {
+            "value": 18.75817704708018
+          }
+        },
+        {
+          "key": "courses-idpf1-category-urban_planning",
+          "doc_count": 224,
+          "avg_cert": {
+            "value": 36.75464312945093
+          }
+        },
+        {
+          "key": "courses-idpf1-category-mechanical_engineering",
+          "doc_count": 223,
+          "avg_cert": {
+            "value": 11.820291100061528
+          }
+        },
+        {
+          "key": "courses-idpf1-category-culture",
+          "doc_count": 219,
+          "avg_cert": {
+            "value": 25.865998289900826
+          }
+        },
+        {
+          "key": "courses-idpf1-category-civil_engineering",
+          "doc_count": 218,
+          "avg_cert": {
+            "value": 19.09432174962595
+          }
+        },
+        {
+          "key": "courses-idpf1-category-blockchain_and_cryptocurrency",
+          "doc_count": 217,
+          "avg_cert": {
+            "value": 9.91618862679477
+          }
+        },
+        {
+          "key": "courses-idpf1-category-chemistry",
+          "doc_count": 203,
+          "avg_cert": {
+            "value": 17.703709325179677
+          }
+        },
+        {
+          "key": "courses-idpf1-category-linux",
+          "doc_count": 202,
+          "avg_cert": {
+            "value": 2.4222522348460584
+          }
+        },
+        {
+          "key": "courses-idpf1-category-leadership",
+          "doc_count": 196,
+          "avg_cert": {
+            "value": 21.785084972576218
+          }
+        },
+        {
+          "key": "courses-idpf1-category-graphic_design",
+          "doc_count": 194,
+          "avg_cert": {
+            "value": 0.3724690221019627
+          }
+        },
+        {
+          "key": "courses-idpf1-category-unity",
+          "doc_count": 194,
+          "avg_cert": {
+            "value": 1.6328709838316613
+          }
+        },
+        {
+          "key": "courses-idpf1-category-cad",
+          "doc_count": 192,
+          "avg_cert": {
+            "value": 2.6594670017560325
+          }
+        },
+        {
+          "key": "courses-idpf1-category-deep_learning",
+          "doc_count": 192,
+          "avg_cert": {
+            "value": 10.395399560530981
+          }
+        },
+        {
+          "key": "courses-idpf1-category-adobe_illustrator",
+          "doc_count": 190,
+          "avg_cert": {
+            "value": 0.10866013577109888
+          }
+        },
+        {
+          "key": "courses-idpf1-category-course_development",
+          "doc_count": 189,
+          "avg_cert": {
+            "value": 9.045280643241115
+          }
+        },
+        {
+          "key": "courses-idpf1-category-cisco",
+          "doc_count": 187,
+          "avg_cert": {
+            "value": 0.8832267720431568
+          }
+        },
+        {
+          "key": "courses-idpf1-category-film_&_theatre",
+          "doc_count": 183,
+          "avg_cert": {
+            "value": 17.016589951645482
+          }
+        },
+        {
+          "key": "courses-idpf1-category-search_engine_optimization_(seo)",
+          "doc_count": 182,
+          "avg_cert": {
+            "value": 1.0047942570277624
+          }
+        },
+        {
+          "key": "courses-idpf1-category-higher_education",
+          "doc_count": 180,
+          "avg_cert": {
+            "value": 15.346990876727634
+          }
+        },
+        {
+          "key": "courses-idpf1-category-musical_instruments",
+          "doc_count": 180,
+          "avg_cert": {
+            "value": 1.3763617197672526
+          }
+        },
+        {
+          "key": "courses-idpf1-category-stem",
+          "doc_count": 175,
+          "avg_cert": {
+            "value": 16.332567814418248
+          }
+        },
+        {
+          "key": "courses-idpf1-category-user_experience",
+          "doc_count": 175,
+          "avg_cert": {
+            "value": 28.02103649684361
+          }
+        },
+        {
+          "key": "courses-idpf1-category-network_security",
+          "doc_count": 171,
+          "avg_cert": {
+            "value": 13.405978927835386
+          }
+        },
+        {
+          "key": "courses-idpf1-category-salesforce",
+          "doc_count": 160,
+          "avg_cert": {
+            "value": 0.45161868929862975
+          }
+        },
+        {
+          "key": "courses-idpf1-category-facebook_marketing",
+          "doc_count": 157,
+          "avg_cert": {
+            "value": 3.0057867256699096
+          }
+        },
+        {
+          "key": "courses-idpf1-category-tensorflow",
+          "doc_count": 157,
+          "avg_cert": {
+            "value": 9.169388552380216
+          }
+        },
+        {
+          "key": "courses-idpf1-category-philosophy",
+          "doc_count": 149,
+          "avg_cert": {
+            "value": 14.914117230664964
+          }
+        },
+        {
+          "key": "courses-idpf1-category-robotics",
+          "doc_count": 148,
+          "avg_cert": {
+            "value": 18.875364471126247
+          }
+        },
+        {
+          "key": "courses-idpf1-category-climate_change",
+          "doc_count": 145,
+          "avg_cert": {
+            "value": 27.497267473155055
+          }
+        },
+        {
+          "key": "courses-idpf1-category-branding",
+          "doc_count": 144,
+          "avg_cert": {
+            "value": 6.766822199026744
+          }
+        },
+        {
+          "key": "courses-idpf1-category-android_development",
+          "doc_count": 139,
+          "avg_cert": {
+            "value": 4.054115686485235
+          }
+        },
+        {
+          "key": "courses-idpf1-category-food",
+          "doc_count": 138,
+          "avg_cert": {
+            "value": 17.268607409104057
+          }
+        },
+        {
+          "key": "courses-idpf1-category-c++",
+          "doc_count": 136,
+          "avg_cert": {
+            "value": 19.827368238393
+          }
+        },
+        {
+          "key": "courses-idpf1-category-calculus",
+          "doc_count": 136,
+          "avg_cert": {
+            "value": 10.672956473687115
+          }
+        },
+        {
+          "key": "courses-idpf1-category-human_resources",
+          "doc_count": 136,
+          "avg_cert": {
+            "value": 18.009287427453433
+          }
+        },
+        {
+          "key": "courses-idpf1-category-angular",
+          "doc_count": 135,
+          "avg_cert": {
+            "value": 0.9175744798448351
+          }
+        },
+        {
+          "key": "courses-idpf1-category-mental_health",
+          "doc_count": 135,
+          "avg_cert": {
+            "value": 16.828213571619106
+          }
+        },
+        {
+          "key": "courses-idpf1-category-risk_management",
+          "doc_count": 135,
+          "avg_cert": {
+            "value": 17.75608831334997
+          }
+        },
+        {
+          "key": "courses-idpf1-category-react",
+          "doc_count": 133,
+          "avg_cert": {
+            "value": 1.6102511757298519
+          }
+        },
+        {
+          "key": "courses-idpf1-category-content_marketing",
+          "doc_count": 132,
+          "avg_cert": {
+            "value": 1.5904263438600483
+          }
+        },
+        {
+          "key": "courses-idpf1-category-agriculture",
+          "doc_count": 131,
+          "avg_cert": {
+            "value": 39.17241071016734
+          }
+        },
+        {
+          "key": "courses-idpf1-category-ethics",
+          "doc_count": 127,
+          "avg_cert": {
+            "value": 22.281991590665083
+          }
+        },
+        {
+          "key": "courses-idpf1-category-human_rights",
+          "doc_count": 123,
+          "avg_cert": {
+            "value": 19.190166954102555
+          }
+        },
+        {
+          "key": "courses-idpf1-category-web_design",
+          "doc_count": 123,
+          "avg_cert": {
+            "value": 0.7553204559698338
+          }
+        },
+        {
+          "key": "courses-idpf1-category-product_management",
+          "doc_count": 122,
+          "avg_cert": {
+            "value": 12.401672949556444
+          }
+        },
+        {
+          "key": "courses-idpf1-category-adobe_lightroom",
+          "doc_count": 120,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-sports",
+          "doc_count": 118,
+          "avg_cert": {
+            "value": 15.458471896284717
+          }
+        },
+        {
+          "key": "courses-idpf1-category-information_technology_(it)_certifications",
+          "doc_count": 117,
+          "avg_cert": {
+            "value": 0.26468494610908705
+          }
+        },
+        {
+          "key": "courses-idpf1-category-investment",
+          "doc_count": 113,
+          "avg_cert": {
+            "value": 8.655467455366017
+          }
+        },
+        {
+          "key": "courses-idpf1-category-asp.net_core",
+          "doc_count": 112,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-algebra",
+          "doc_count": 109,
+          "avg_cert": {
+            "value": 23.302205295737732
+          }
+        },
+        {
+          "key": "courses-idpf1-category-fashion",
+          "doc_count": 107,
+          "avg_cert": {
+            "value": 12.755520499755288
+          }
+        },
+        {
+          "key": "courses-idpf1-category-node.js",
+          "doc_count": 105,
+          "avg_cert": {
+            "value": 2.9920324416387647
+          }
+        },
+        {
+          "key": "courses-idpf1-category-penetration_testing",
+          "doc_count": 104,
+          "avg_cert": {
+            "value": 0.39702741916363055
+          }
+        },
+        {
+          "key": "courses-idpf1-category-adobe_after_effects",
+          "doc_count": 102,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-religion",
+          "doc_count": 102,
+          "avg_cert": {
+            "value": 24.66037915734684
+          }
+        },
+        {
+          "key": "courses-idpf1-category-adobe_premiere",
+          "doc_count": 101,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-google_workspace",
+          "doc_count": 101,
+          "avg_cert": {
+            "value": 5.212458988227467
+          }
+        },
+        {
+          "key": "courses-idpf1-category-c",
+          "doc_count": 100,
+          "avg_cert": {
+            "value": 7.194223966598511
+          }
+        },
+        {
+          "key": "courses-idpf1-category-microsoft_powerpoint",
+          "doc_count": 100,
+          "avg_cert": {
+            "value": 1.9451798057556153
+          }
+        },
+        {
+          "key": "courses-idpf1-category-supply_chain",
+          "doc_count": 99,
+          "avg_cert": {
+            "value": 35.34967337714301
+          }
+        },
+        {
+          "key": "courses-idpf1-category-windows_systems_administration",
+          "doc_count": 99,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-fitness",
+          "doc_count": 98,
+          "avg_cert": {
+            "value": 4.516464943788489
+          }
+        },
+        {
+          "key": "courses-idpf1-category-advertising",
+          "doc_count": 97,
+          "avg_cert": {
+            "value": 10.042264781047388
+          }
+        },
+        {
+          "key": "courses-idpf1-category-aws_certification",
+          "doc_count": 97,
+          "avg_cert": {
+            "value": 1.9617613566290473
+          }
+        },
+        {
+          "key": "courses-idpf1-category-arduino",
+          "doc_count": 96,
+          "avg_cert": {
+            "value": 1.6129238903522491
+          }
+        },
+        {
+          "key": "courses-idpf1-category-astronomy",
+          "doc_count": 95,
+          "avg_cert": {
+            "value": 17.19358458268015
+          }
+        },
+        {
+          "key": "courses-idpf1-category-guitar",
+          "doc_count": 95,
+          "avg_cert": {
+            "value": 0.5433006788554945
+          }
+        },
+        {
+          "key": "courses-idpf1-category-comptia_it_certifications",
+          "doc_count": 94,
+          "avg_cert": {
+            "value": 0.21963218932456158
+          }
+        },
+        {
+          "key": "courses-idpf1-category-docker",
+          "doc_count": 94,
+          "avg_cert": {
+            "value": 1.7570575145964926
+          }
+        },
+        {
+          "key": "courses-idpf1-category-k12",
+          "doc_count": 94,
+          "avg_cert": {
+            "value": 7.737858234567845
+          }
+        },
+        {
+          "key": "courses-idpf1-category-computer_vision",
+          "doc_count": 92,
+          "avg_cert": {
+            "value": 8.081069106641023
+          }
+        },
+        {
+          "key": "courses-idpf1-category-manufacturing",
+          "doc_count": 92,
+          "avg_cert": {
+            "value": 21.494805221972257
+          }
+        },
+        {
+          "key": "courses-idpf1-category-fintech",
+          "doc_count": 91,
+          "avg_cert": {
+            "value": 29.543148313249862
+          }
+        },
+        {
+          "key": "courses-idpf1-category-instagram_marketing",
+          "doc_count": 91,
+          "avg_cert": {
+            "value": 1.2155336757282635
+          }
+        },
+        {
+          "key": "courses-idpf1-category-nursing",
+          "doc_count": 90,
+          "avg_cert": {
+            "value": 22.548075697157117
+          }
+        },
+        {
+          "key": "courses-idpf1-category-gis",
+          "doc_count": 89,
+          "avg_cert": {
+            "value": 40.48140217213148
+          }
+        },
+        {
+          "key": "courses-idpf1-category-governance",
+          "doc_count": 89,
+          "avg_cert": {
+            "value": 19.1276255511166
+          }
+        },
+        {
+          "key": "courses-idpf1-category-bootstrap",
+          "doc_count": 88,
+          "avg_cert": {
+            "value": 0.2346071113239635
+          }
+        },
+        {
+          "key": "courses-idpf1-category-digital_skills",
+          "doc_count": 88,
+          "avg_cert": {
+            "value": 5.5557320009578355
+          }
+        },
+        {
+          "key": "courses-idpf1-category-neural_networks",
+          "doc_count": 86,
+          "avg_cert": {
+            "value": 8.353055510410043
+          }
+        },
+        {
+          "key": "courses-idpf1-category-music_theory",
+          "doc_count": 85,
+          "avg_cert": {
+            "value": 4.251653357113109
+          }
+        },
+        {
+          "key": "courses-idpf1-category-windows_server",
+          "doc_count": 85,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-anthropology",
+          "doc_count": 83,
+          "avg_cert": {
+            "value": 20.825133967112347
+          }
+        },
+        {
+          "key": "courses-idpf1-category-natural_language_processing_(nlp)",
+          "doc_count": 83,
+          "avg_cert": {
+            "value": 12.773486355701126
+          }
+        },
+        {
+          "key": "courses-idpf1-category-youtube_marketing",
+          "doc_count": 83,
+          "avg_cert": {
+            "value": 0.49748013967491056
+          }
+        },
+        {
+          "key": "courses-idpf1-category-blender",
+          "doc_count": 82,
+          "avg_cert": {
+            "value": 0.5365853658536586
+          }
+        },
+        {
+          "key": "courses-idpf1-category-spring_framework",
+          "doc_count": 81,
+          "avg_cert": {
+            "value": 1.2744089997844932
+          }
+        },
+        {
+          "key": "courses-idpf1-category-kubernetes",
+          "doc_count": 80,
+          "avg_cert": {
+            "value": 8.884712135791778
+          }
+        },
+        {
+          "key": "courses-idpf1-category-miro",
+          "doc_count": 80,
+          "avg_cert": {
+            "value": 10.322712898254395
+          }
+        },
+        {
+          "key": "courses-idpf1-category-negotiation",
+          "doc_count": 80,
+          "avg_cert": {
+            "value": 25.828288626670837
+          }
+        },
+        {
+          "key": "courses-idpf1-category-django",
+          "doc_count": 79,
+          "avg_cert": {
+            "value": 2.4495946908298927
+          }
+        },
+        {
+          "key": "courses-idpf1-category-piano",
+          "doc_count": 78,
+          "avg_cert": {
+            "value": 2.514506988036327
+          }
+        },
+        {
+          "key": "courses-idpf1-category-genomics",
+          "doc_count": 77,
+          "avg_cert": {
+            "value": 25.277385377264643
+          }
+        },
+        {
+          "key": "courses-idpf1-category-microservices",
+          "doc_count": 77,
+          "avg_cert": {
+            "value": 6.115227984143542
+          }
+        },
+        {
+          "key": "courses-idpf1-category-dropshipping",
+          "doc_count": 76,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-git",
+          "doc_count": 76,
+          "avg_cert": {
+            "value": 1.7886352288095575
+          }
+        },
+        {
+          "key": "courses-idpf1-category-ios_development",
+          "doc_count": 76,
+          "avg_cert": {
+            "value": 6.208849404987536
+          }
+        },
+        {
+          "key": "courses-idpf1-category-personal_finance",
+          "doc_count": 76,
+          "avg_cert": {
+            "value": 13.186779837859305
+          }
+        },
+        {
+          "key": "courses-idpf1-category-public_policy",
+          "doc_count": 76,
+          "avg_cert": {
+            "value": 20.20334549954063
+          }
+        },
+        {
+          "key": "courses-idpf1-category-inclusion",
+          "doc_count": 75,
+          "avg_cert": {
+            "value": 15.282178751627605
+          }
+        },
+        {
+          "key": "courses-idpf1-category-neuroscience",
+          "doc_count": 75,
+          "avg_cert": {
+            "value": 25.583268127441407
+          }
+        },
+        {
+          "key": "courses-idpf1-category-six_sigma",
+          "doc_count": 75,
+          "avg_cert": {
+            "value": 9.383268127441406
+          }
+        },
+        {
+          "key": "courses-idpf1-category-storytelling",
+          "doc_count": 74,
+          "avg_cert": {
+            "value": 15.902391498153275
+          }
+        },
+        {
+          "key": "courses-idpf1-category-journalism",
+          "doc_count": 72,
+          "avg_cert": {
+            "value": 9.260348743862576
+          }
+        },
+        {
+          "key": "courses-idpf1-category-thermodynamics",
+          "doc_count": 72,
+          "avg_cert": {
+            "value": 13.154661734898886
+          }
+        },
+        {
+          "key": "courses-idpf1-category-procreate",
+          "doc_count": 70,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-selenium",
+          "doc_count": 70,
+          "avg_cert": {
+            "value": 1.4746732711791992
+          }
+        },
+        {
+          "key": "courses-idpf1-category-materials_science",
+          "doc_count": 69,
+          "avg_cert": {
+            "value": 59.23852692479672
+          }
+        },
+        {
+          "key": "courses-idpf1-category-music_production",
+          "doc_count": 69,
+          "avg_cert": {
+            "value": 8.354409535725912
+          }
+        },
+        {
+          "key": "courses-idpf1-category-bim",
+          "doc_count": 67,
+          "avg_cert": {
+            "value": 30.421300432575283
+          }
+        },
+        {
+          "key": "courses-idpf1-category-microsoft_word",
+          "doc_count": 67,
+          "avg_cert": {
+            "value": 1.2325627341199277
+          }
+        },
+        {
+          "key": "courses-idpf1-category-real_estate",
+          "doc_count": 67,
+          "avg_cert": {
+            "value": 1.0784923923549368
+          }
+        },
+        {
+          "key": "courses-idpf1-category-cooking",
+          "doc_count": 64,
+          "avg_cert": {
+            "value": 9.671377167105675
+          }
+        },
+        {
+          "key": "courses-idpf1-category-public_speaking",
+          "doc_count": 64,
+          "avg_cert": {
+            "value": 8.508591279387474
+          }
+        },
+        {
+          "key": "courses-idpf1-category-quantum_mechanics",
+          "doc_count": 64,
+          "avg_cert": {
+            "value": 31.600349947810173
+          }
+        },
+        {
+          "key": "courses-idpf1-category-chemical_engineering",
+          "doc_count": 63,
+          "avg_cert": {
+            "value": 13.086640600174192
+          }
+        },
+        {
+          "key": "courses-idpf1-category-coronavirus",
+          "doc_count": 63,
+          "avg_cert": {
+            "value": 16.461899742247567
+          }
+        },
+        {
+          "key": "courses-idpf1-category-design_thinking",
+          "doc_count": 63,
+          "avg_cert": {
+            "value": 10.070196772378589
+          }
+        },
+        {
+          "key": "courses-idpf1-category-canva",
+          "doc_count": 62,
+          "avg_cert": {
+            "value": 8.82425457431424
+          }
+        },
+        {
+          "key": "courses-idpf1-category-emotional_intelligence",
+          "doc_count": 61,
+          "avg_cert": {
+            "value": 8.34746340454602
+          }
+        },
+        {
+          "key": "courses-idpf1-category-affiliate_marketing",
+          "doc_count": 60,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-audio_engineering",
+          "doc_count": 59,
+          "avg_cert": {
+            "value": 1.924573591199972
+          }
+        },
+        {
+          "key": "courses-idpf1-category-cryptography",
+          "doc_count": 59,
+          "avg_cert": {
+            "value": 12.714093984183618
+          }
+        },
+        {
+          "key": "courses-idpf1-category-tableau",
+          "doc_count": 59,
+          "avg_cert": {
+            "value": 5.589980206247104
+          }
+        },
+        {
+          "key": "courses-idpf1-category-3d_printing",
+          "doc_count": 57,
+          "avg_cert": {
+            "value": 4.973440688953065
+          }
+        },
+        {
+          "key": "courses-idpf1-category-tourism",
+          "doc_count": 57,
+          "avg_cert": {
+            "value": 23.74592948378178
+          }
+        },
+        {
+          "key": "courses-idpf1-category-bioinformatics",
+          "doc_count": 56,
+          "avg_cert": {
+            "value": 17.077833465167455
+          }
+        },
+        {
+          "key": "courses-idpf1-category-critical_thinking",
+          "doc_count": 56,
+          "avg_cert": {
+            "value": 26.84853536742074
+          }
+        },
+        {
+          "key": "courses-idpf1-category-data_mining",
+          "doc_count": 56,
+          "avg_cert": {
+            "value": 23.466065781457083
+          }
+        },
+        {
+          "key": "courses-idpf1-category-earth_science",
+          "doc_count": 56,
+          "avg_cert": {
+            "value": 25.60088438647134
+          }
+        },
+        {
+          "key": "courses-idpf1-category-email_marketing",
+          "doc_count": 55,
+          "avg_cert": {
+            "value": 2.95545167055997
+          }
+        },
+        {
+          "key": "courses-idpf1-category-quantum_computing",
+          "doc_count": 55,
+          "avg_cert": {
+            "value": 116.45222826871004
+          }
+        },
+        {
+          "key": "courses-idpf1-category-shopify",
+          "doc_count": 55,
+          "avg_cert": {
+            "value": 0.1876856890591708
+          }
+        },
+        {
+          "key": "courses-idpf1-category-watercolor",
+          "doc_count": 55,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-amazon_fba",
+          "doc_count": 54,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-embedded_systems",
+          "doc_count": 54,
+          "avg_cert": {
+            "value": 20.154790260173655
+          }
+        },
+        {
+          "key": "courses-idpf1-category-microsoft_azure_certification",
+          "doc_count": 54,
+          "avg_cert": {
+            "value": 4.970195099159524
+          }
+        },
+        {
+          "key": "courses-idpf1-category-microsoft_power_bi",
+          "doc_count": 54,
+          "avg_cert": {
+            "value": 3.3441056145562067
+          }
+        },
+        {
+          "key": "courses-idpf1-category-data_warehousing",
+          "doc_count": 53,
+          "avg_cert": {
+            "value": 21.208826838799244
+          }
+        },
+        {
+          "key": "courses-idpf1-category-linear_algebra",
+          "doc_count": 53,
+          "avg_cert": {
+            "value": 37.31105885415707
+          }
+        },
+        {
+          "key": "courses-idpf1-category-ci_cd",
+          "doc_count": 52,
+          "avg_cert": {
+            "value": 3.3244722072894755
+          }
+        },
+        {
+          "key": "courses-idpf1-category-blogging",
+          "doc_count": 51,
+          "avg_cert": {
+            "value": 1.9411764705882353
+          }
+        },
+        {
+          "key": "courses-idpf1-category-chatbot",
+          "doc_count": 51,
+          "avg_cert": {
+            "value": 6.3112265642951515
+          }
+        },
+        {
+          "key": "courses-idpf1-category-typography",
+          "doc_count": 51,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-business_analysis",
+          "doc_count": 50,
+          "avg_cert": {
+            "value": 2.425179805755615
+          }
+        },
+        {
+          "key": "courses-idpf1-category-construction",
+          "doc_count": 50,
+          "avg_cert": {
+            "value": 80.8497223854065
+          }
+        },
+        {
+          "key": "courses-idpf1-category-pandemic",
+          "doc_count": 50,
+          "avg_cert": {
+            "value": 22.32908515930176
+          }
+        },
+        {
+          "key": "courses-idpf1-category-maya",
+          "doc_count": 49,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-raspberry_pi",
+          "doc_count": 49,
+          "avg_cert": {
+            "value": 8.869014350735412
+          }
+        },
+        {
+          "key": "courses-idpf1-category-ruby",
+          "doc_count": 49,
+          "avg_cert": {
+            "value": 0.21066761016845703
+          }
+        },
+        {
+          "key": "courses-idpf1-category-calligraphy",
+          "doc_count": 48,
+          "avg_cert": {
+            "value": 0.9166666666666666
+          }
+        },
+        {
+          "key": "courses-idpf1-category-gender_studies",
+          "doc_count": 48,
+          "avg_cert": {
+            "value": 17.287684003512066
+          }
+        },
+        {
+          "key": "courses-idpf1-category-macroeconomics",
+          "doc_count": 48,
+          "avg_cert": {
+            "value": 27.044407188892365
+          }
+        },
+        {
+          "key": "courses-idpf1-category-renewable_energy",
+          "doc_count": 48,
+          "avg_cert": {
+            "value": 31.647910078366596
+          }
+        },
+        {
+          "key": "courses-idpf1-category-sap",
+          "doc_count": 48,
+          "avg_cert": {
+            "value": 0.2150565187136332
+          }
+        },
+        {
+          "key": "courses-idpf1-category-virtualization",
+          "doc_count": 48,
+          "avg_cert": {
+            "value": 0.2150565187136332
+          }
+        },
+        {
+          "key": "courses-idpf1-category-vue_js",
+          "doc_count": 48,
+          "avg_cert": {
+            "value": 0.2150565187136332
+          }
+        },
+        {
+          "key": "courses-idpf1-category-ielts",
+          "doc_count": 47,
+          "avg_cert": {
+            "value": 6.168856965734603
+          }
+        },
+        {
+          "key": "courses-idpf1-category-yoga",
+          "doc_count": 47,
+          "avg_cert": {
+            "value": 1.3177931359473696
+          }
+        },
+        {
+          "key": "courses-idpf1-category-kotlin",
+          "doc_count": 46,
+          "avg_cert": {
+            "value": 1.1220340106798254
+          }
+        },
+        {
+          "key": "courses-idpf1-category-mindfulness",
+          "doc_count": 46,
+          "avg_cert": {
+            "value": 15.063832117163617
+          }
+        },
+        {
+          "key": "courses-idpf1-category-3ds_max",
+          "doc_count": 45,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-ccna_certification",
+          "doc_count": 45,
+          "avg_cert": {
+            "value": 0.6881808598836263
+          }
+        },
+        {
+          "key": "courses-idpf1-category-filmmaking",
+          "doc_count": 45,
+          "avg_cert": {
+            "value": 5.133333333333334
+          }
+        },
+        {
+          "key": "courses-idpf1-category-healthcare_informatics",
+          "doc_count": 45,
+          "avg_cert": {
+            "value": 22.231608814663357
+          }
+        },
+        {
+          "key": "courses-idpf1-category-nanotechnology",
+          "doc_count": 45,
+          "avg_cert": {
+            "value": 29.757770750257706
+          }
+        },
+        {
+          "key": "courses-idpf1-category-unreal_engine",
+          "doc_count": 45,
+          "avg_cert": {
+            "value": 0.6881808598836263
+          }
+        },
+        {
+          "key": "courses-idpf1-category-vmware",
+          "doc_count": 45,
+          "avg_cert": {
+            "value": 0.22939361996120877
+          }
+        },
+        {
+          "key": "courses-idpf1-category-presentation_skills",
+          "doc_count": 44,
+          "avg_cert": {
+            "value": 1.1730355566198176
+          }
+        },
+        {
+          "key": "courses-idpf1-category-bash",
+          "doc_count": 43,
+          "avg_cert": {
+            "value": 0.9602523626283158
+          }
+        },
+        {
+          "key": "courses-idpf1-category-cancer",
+          "doc_count": 43,
+          "avg_cert": {
+            "value": 37.32039467124052
+          }
+        },
+        {
+          "key": "courses-idpf1-category-logistics",
+          "doc_count": 43,
+          "avg_cert": {
+            "value": 26.35560119983762
+          }
+        },
+        {
+          "key": "courses-idpf1-category-matlab",
+          "doc_count": 42,
+          "avg_cert": {
+            "value": 13.568394161406017
+          }
+        },
+        {
+          "key": "courses-idpf1-category-meditation",
+          "doc_count": 42,
+          "avg_cert": {
+            "value": 2.253462518964495
+          }
+        },
+        {
+          "key": "courses-idpf1-category-scrum",
+          "doc_count": 42,
+          "avg_cert": {
+            "value": 5.973914668673561
+          }
+        },
+        {
+          "key": "courses-idpf1-category-social_entrepreneurship",
+          "doc_count": 42,
+          "avg_cert": {
+            "value": 20.844907601674397
+          }
+        },
+        {
+          "key": "courses-idpf1-category-adwords",
+          "doc_count": 41,
+          "avg_cert": {
+            "value": 7.307647914421268
+          }
+        },
+        {
+          "key": "courses-idpf1-category-chinese",
+          "doc_count": 41,
+          "avg_cert": {
+            "value": 24.258090321610613
+          }
+        },
+        {
+          "key": "courses-idpf1-category-spanish",
+          "doc_count": 40,
+          "avg_cert": {
+            "value": 2.73306782245636
+          }
+        },
+        {
+          "key": "courses-idpf1-category-diversity",
+          "doc_count": 39,
+          "avg_cert": {
+            "value": 19.04883118164845
+          }
+        },
+        {
+          "key": "courses-idpf1-category-swift",
+          "doc_count": 39,
+          "avg_cert": {
+            "value": 1.5881096766545222
+          }
+        },
+        {
+          "key": "courses-idpf1-category-autocad",
+          "doc_count": 38,
+          "avg_cert": {
+            "value": 0.5433006788554945
+          }
+        },
+        {
+          "key": "courses-idpf1-category-go",
+          "doc_count": 38,
+          "avg_cert": {
+            "value": 1.9015523759942305
+          }
+        },
+        {
+          "key": "courses-idpf1-category-microeconomics",
+          "doc_count": 38,
+          "avg_cert": {
+            "value": 22.882052120409515
+          }
+        },
+        {
+          "key": "courses-idpf1-category-typescript",
+          "doc_count": 38,
+          "avg_cert": {
+            "value": 2.444853054849725
+          }
+        },
+        {
+          "key": "courses-idpf1-category-circuits",
+          "doc_count": 37,
+          "avg_cert": {
+            "value": 8.72542414794097
+          }
+        },
+        {
+          "key": "courses-idpf1-category-french",
+          "doc_count": 37,
+          "avg_cert": {
+            "value": 0.8369767214800861
+          }
+        },
+        {
+          "key": "courses-idpf1-category-geology",
+          "doc_count": 37,
+          "avg_cert": {
+            "value": 32.13869040721172
+          }
+        },
+        {
+          "key": "courses-idpf1-category-academic_writing",
+          "doc_count": 36,
+          "avg_cert": {
+            "value": 23.487495607799953
+          }
+        },
+        {
+          "key": "courses-idpf1-category-clinical_research",
+          "doc_count": 36,
+          "avg_cert": {
+            "value": 58.895198027292885
+          }
+        },
+        {
+          "key": "courses-idpf1-category-coaching",
+          "doc_count": 36,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-digital_music",
+          "doc_count": 36,
+          "avg_cert": {
+            "value": 2.007194174660577
+          }
+        },
+        {
+          "key": "courses-idpf1-category-keras",
+          "doc_count": 36,
+          "avg_cert": {
+            "value": 11.352260748545328
+          }
+        },
+        {
+          "key": "courses-idpf1-category-adobe_xd",
+          "doc_count": 35,
+          "avg_cert": {
+            "value": 6.193627738952637
+          }
+        },
+        {
+          "key": "courses-idpf1-category-anatomy",
+          "doc_count": 35,
+          "avg_cert": {
+            "value": 26.13090580531529
+          }
+        },
+        {
+          "key": "courses-idpf1-category-embroidery",
+          "doc_count": 35,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-foundations_of_mathematics",
+          "doc_count": 35,
+          "avg_cert": {
+            "value": 5.960387556893485
+          }
+        },
+        {
+          "key": "courses-idpf1-category-teamwork",
+          "doc_count": 35,
+          "avg_cert": {
+            "value": 22.739215850830078
+          }
+        },
+        {
+          "key": "courses-idpf1-category-laravel",
+          "doc_count": 34,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-microcontrollers",
+          "doc_count": 34,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-scala",
+          "doc_count": 34,
+          "avg_cert": {
+            "value": 10.71068842270795
+          }
+        },
+        {
+          "key": "courses-idpf1-category-splunk",
+          "doc_count": 34,
+          "avg_cert": {
+            "value": 0.9108276086695054
+          }
+        },
+        {
+          "key": "courses-idpf1-category-jenkins",
+          "doc_count": 33,
+          "avg_cert": {
+            "value": 2.1896663723569927
+          }
+        },
+        {
+          "key": "courses-idpf1-category-mongodb",
+          "doc_count": 33,
+          "avg_cert": {
+            "value": 3.753713781183416
+          }
+        },
+        {
+          "key": "courses-idpf1-category-telecommunications",
+          "doc_count": 33,
+          "avg_cert": {
+            "value": 19.762527465820312
+          }
+        },
+        {
+          "key": "courses-idpf1-category-architecture",
+          "doc_count": 32,
+          "avg_cert": {
+            "value": 15.60383477807045
+          }
+        },
+        {
+          "key": "courses-idpf1-category-german",
+          "doc_count": 32,
+          "avg_cert": {
+            "value": 0.9677543342113495
+          }
+        },
+        {
+          "key": "courses-idpf1-category-hadoop",
+          "doc_count": 32,
+          "avg_cert": {
+            "value": 10.768178224563599
+          }
+        },
+        {
+          "key": "courses-idpf1-category-microsoft_certification",
+          "doc_count": 32,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-microsoft_sharepoint",
+          "doc_count": 32,
+          "avg_cert": {
+            "value": 0.6451695561408997
+          }
+        },
+        {
+          "key": "courses-idpf1-category-mysql",
+          "doc_count": 32,
+          "avg_cert": {
+            "value": 3.548432558774948
+          }
+        },
+        {
+          "key": "courses-idpf1-category-supervised_learning",
+          "doc_count": 32,
+          "avg_cert": {
+            "value": 19.837776005268097
+          }
+        },
+        {
+          "key": "courses-idpf1-category-microsoft_outlook",
+          "doc_count": 31,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-poetry",
+          "doc_count": 31,
+          "avg_cert": {
+            "value": 15.124921121904928
+          }
+        },
+        {
+          "key": "courses-idpf1-category-physiology",
+          "doc_count": 30,
+          "avg_cert": {
+            "value": 21.07211354573568
+          }
+        },
+        {
+          "key": "courses-idpf1-category-soft_skills",
+          "doc_count": 30,
+          "avg_cert": {
+            "value": 4.831209246317545
+          }
+        },
+        {
+          "key": "courses-idpf1-category-apache_spark",
+          "doc_count": 29,
+          "avg_cert": {
+            "value": 17.939965182337268
+          }
+        },
+        {
+          "key": "courses-idpf1-category-hospitality_management",
+          "doc_count": 29,
+          "avg_cert": {
+            "value": 38.44717719637114
+          }
+        },
+        {
+          "key": "courses-idpf1-category-microsoft_access",
+          "doc_count": 29,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-pmp_certification",
+          "doc_count": 29,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-robotic_process_automation_(rpa)",
+          "doc_count": 29,
+          "avg_cert": {
+            "value": 3.55955617181186
+          }
+        },
+        {
+          "key": "courses-idpf1-category-sketchup",
+          "doc_count": 29,
+          "avg_cert": {
+            "value": 1.77977808590593
+          }
+        },
+        {
+          "key": "courses-idpf1-category-copyright",
+          "doc_count": 28,
+          "avg_cert": {
+            "value": 19.72012165614537
+          }
+        },
+        {
+          "key": "courses-idpf1-category-dentistry",
+          "doc_count": 28,
+          "avg_cert": {
+            "value": 33.25583594185965
+          }
+        },
+        {
+          "key": "courses-idpf1-category-veterinary_science",
+          "doc_count": 28,
+          "avg_cert": {
+            "value": 10.962009906768799
+          }
+        },
+        {
+          "key": "courses-idpf1-category-copywriting",
+          "doc_count": 26,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-intro_to_machine_learning",
+          "doc_count": 26,
+          "avg_cert": {
+            "value": 9.662581883943998
+          }
+        },
+        {
+          "key": "courses-idpf1-category-powershell",
+          "doc_count": 26,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-zbrush",
+          "doc_count": 26,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-biochemistry",
+          "doc_count": 25,
+          "avg_cert": {
+            "value": 37.28653625488281
+          }
+        },
+        {
+          "key": "courses-idpf1-category-bitcoin",
+          "doc_count": 25,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-geometry",
+          "doc_count": 25,
+          "avg_cert": {
+            "value": 8.076176643371582
+          }
+        },
+        {
+          "key": "courses-idpf1-category-parenting",
+          "doc_count": 25,
+          "avg_cert": {
+            "value": 12.021993675231933
+          }
+        },
+        {
+          "key": "courses-idpf1-category-pytorch",
+          "doc_count": 25,
+          "avg_cert": {
+            "value": 11.713627738952637
+          }
+        },
+        {
+          "key": "courses-idpf1-category-ruby_on_rails",
+          "doc_count": 25,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-ansible",
+          "doc_count": 24,
+          "avg_cert": {
+            "value": 1.7204521497090657
+          }
+        },
+        {
+          "key": "courses-idpf1-category-apigee",
+          "doc_count": 24,
+          "avg_cert": {
+            "value": 3.871017336845398
+          }
+        },
+        {
+          "key": "courses-idpf1-category-autism",
+          "doc_count": 24,
+          "avg_cert": {
+            "value": 26.440904299418133
+          }
+        },
+        {
+          "key": "courses-idpf1-category-ecology",
+          "doc_count": 24,
+          "avg_cert": {
+            "value": 19.520254969596863
+          }
+        },
+        {
+          "key": "courses-idpf1-category-oracle",
+          "doc_count": 24,
+          "avg_cert": {
+            "value": 2.150565187136332
+          }
+        },
+        {
+          "key": "courses-idpf1-category-autonomous_vehicles",
+          "doc_count": 23,
+          "avg_cert": {
+            "value": 29.678850630055305
+          }
+        },
+        {
+          "key": "courses-idpf1-category-github",
+          "doc_count": 23,
+          "avg_cert": {
+            "value": 0.8976272085438604
+          }
+        },
+        {
+          "key": "courses-idpf1-category-google_analytics",
+          "doc_count": 23,
+          "avg_cert": {
+            "value": 8.14030995576278
+          }
+        },
+        {
+          "key": "courses-idpf1-category-inkscape",
+          "doc_count": 23,
+          "avg_cert": {
+            "value": 8.976272085438604
+          }
+        },
+        {
+          "key": "courses-idpf1-category-japanese",
+          "doc_count": 23,
+          "avg_cert": {
+            "value": 0.8976272085438604
+          }
+        },
+        {
+          "key": "courses-idpf1-category-linguistics",
+          "doc_count": 23,
+          "avg_cert": {
+            "value": 21.471334498861562
+          }
+        },
+        {
+          "key": "courses-idpf1-category-pharmacology",
+          "doc_count": 23,
+          "avg_cert": {
+            "value": 31.2567137427952
+          }
+        },
+        {
+          "key": "courses-idpf1-category-postgresql",
+          "doc_count": 23,
+          "avg_cert": {
+            "value": 13.302962551946225
+          }
+        },
+        {
+          "key": "courses-idpf1-category-citrix",
+          "doc_count": 22,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-couchbase",
+          "doc_count": 22,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-diabetes",
+          "doc_count": 22,
+          "avg_cert": {
+            "value": 41.55577859011564
+          }
+        },
+        {
+          "key": "courses-idpf1-category-digital_forensics",
+          "doc_count": 22,
+          "avg_cert": {
+            "value": 2.815285335887562
+          }
+        },
+        {
+          "key": "courses-idpf1-category-game_theory",
+          "doc_count": 22,
+          "avg_cert": {
+            "value": 12.007427562366832
+          }
+        },
+        {
+          "key": "courses-idpf1-category-google_sheets",
+          "doc_count": 22,
+          "avg_cert": {
+            "value": 6.099784894423052
+          }
+        },
+        {
+          "key": "courses-idpf1-category-libreoffice",
+          "doc_count": 22,
+          "avg_cert": {
+            "value": 10.322712898254395
+          }
+        },
+        {
+          "key": "courses-idpf1-category-adobe_animate",
+          "doc_count": 21,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-adobe_indesign",
+          "doc_count": 21,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-clickup",
+          "doc_count": 21,
+          "avg_cert": {
+            "value": 10.322712898254395
+          }
+        },
+        {
+          "key": "courses-idpf1-category-customer_service",
+          "doc_count": 21,
+          "avg_cert": {
+            "value": 8.569911366417294
+          }
+        },
+        {
+          "key": "courses-idpf1-category-reinforcement_learning",
+          "doc_count": 21,
+          "avg_cert": {
+            "value": 6.39025084177653
+          }
+        },
+        {
+          "key": "courses-idpf1-category-solidworks",
+          "doc_count": 21,
+          "avg_cert": {
+            "value": 4.714285714285714
+          }
+        },
+        {
+          "key": "courses-idpf1-category-textiles",
+          "doc_count": 21,
+          "avg_cert": {
+            "value": 8.103019351050968
+          }
+        },
+        {
+          "key": "courses-idpf1-category-apache_kafka",
+          "doc_count": 19,
+          "avg_cert": {
+            "value": 5.753826994644968
+          }
+        },
+        {
+          "key": "courses-idpf1-category-aruba",
+          "doc_count": 19,
+          "avg_cert": {
+            "value": 2.7165033942774723
+          }
+        },
+        {
+          "key": "courses-idpf1-category-biostatistics",
+          "doc_count": 19,
+          "avg_cert": {
+            "value": 15.854059420133892
+          }
+        },
+        {
+          "key": "courses-idpf1-category-biotechnology",
+          "doc_count": 19,
+          "avg_cert": {
+            "value": 16.854059420133893
+          }
+        },
+        {
+          "key": "courses-idpf1-category-jira",
+          "doc_count": 19,
+          "avg_cert": {
+            "value": 2.173202715421978
+          }
+        },
+        {
+          "key": "courses-idpf1-category-juniper_networks",
+          "doc_count": 19,
+          "avg_cert": {
+            "value": 3.2598040731329667
+          }
+        },
+        {
+          "key": "courses-idpf1-category-mandarin",
+          "doc_count": 19,
+          "avg_cert": {
+            "value": 49.24114227294922
+          }
+        },
+        {
+          "key": "courses-idpf1-category-recommender_systems",
+          "doc_count": 19,
+          "avg_cert": {
+            "value": 15.500946346082186
+          }
+        },
+        {
+          "key": "courses-idpf1-category-songwriting",
+          "doc_count": 19,
+          "avg_cert": {
+            "value": 4.9813381998162525
+          }
+        },
+        {
+          "key": "courses-idpf1-category-wireshark",
+          "doc_count": 19,
+          "avg_cert": {
+            "value": 1.086601357710989
+          }
+        },
+        {
+          "key": "courses-idpf1-category-blazor",
+          "doc_count": 18,
+          "avg_cert": {
+            "value": 1.7204521497090657
+          }
+        },
+        {
+          "key": "courses-idpf1-category-cinema_4d",
+          "doc_count": 18,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-econometrics",
+          "doc_count": 18,
+          "avg_cert": {
+            "value": 9.030546771155464
+          }
+        },
+        {
+          "key": "courses-idpf1-category-first_aid",
+          "doc_count": 18,
+          "avg_cert": {
+            "value": 6.331563260820177
+          }
+        },
+        {
+          "key": "courses-idpf1-category-gdpr",
+          "doc_count": 18,
+          "avg_cert": {
+            "value": 16.258079210917156
+          }
+        },
+        {
+          "key": "courses-idpf1-category-graphql",
+          "doc_count": 18,
+          "avg_cert": {
+            "value": 9.424745877583822
+          }
+        },
+        {
+          "key": "courses-idpf1-category-arabic",
+          "doc_count": 17,
+          "avg_cert": {
+            "value": 0.6072184057796702
+          }
+        },
+        {
+          "key": "courses-idpf1-category-ceramics",
+          "doc_count": 17,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-figma",
+          "doc_count": 17,
+          "avg_cert": {
+            "value": 2.428873623118681
+          }
+        },
+        {
+          "key": "courses-idpf1-category-geography",
+          "doc_count": 17,
+          "avg_cert": {
+            "value": 13.776192216312184
+          }
+        },
+        {
+          "key": "courses-idpf1-category-virtual_reality",
+          "doc_count": 17,
+          "avg_cert": {
+            "value": 8.252403034883386
+          }
+        },
+        {
+          "key": "courses-idpf1-category-aviation",
+          "doc_count": 16,
+          "avg_cert": {
+            "value": 9.9576695561409
+          }
+        },
+        {
+          "key": "courses-idpf1-category-ccnp_certification",
+          "doc_count": 16,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-comptia_a+_(plus)",
+          "doc_count": 16,
+          "avg_cert": {
+            "value": 0.6451695561408997
+          }
+        },
+        {
+          "key": "courses-idpf1-category-microsoft_powerapps",
+          "doc_count": 16,
+          "avg_cert": {
+            "value": 5.161356449127197
+          }
+        },
+        {
+          "key": "courses-idpf1-category-public_relations",
+          "doc_count": 16,
+          "avg_cert": {
+            "value": 9.514195561408997
+          }
+        },
+        {
+          "key": "courses-idpf1-category-scratch",
+          "doc_count": 16,
+          "avg_cert": {
+            "value": 15.5
+          }
+        },
+        {
+          "key": "courses-idpf1-category-sketch",
+          "doc_count": 16,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-autodesk_fusion_360",
+          "doc_count": 15,
+          "avg_cert": {
+            "value": 6.881808598836263
+          }
+        },
+        {
+          "key": "courses-idpf1-category-bug_bounty",
+          "doc_count": 15,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-discrete_mathematics",
+          "doc_count": 15,
+          "avg_cert": {
+            "value": 5.5054468790690105
+          }
+        },
+        {
+          "key": "courses-idpf1-category-drones",
+          "doc_count": 15,
+          "avg_cert": {
+            "value": 27
+          }
+        },
+        {
+          "key": "courses-idpf1-category-growth_hacking",
+          "doc_count": 15,
+          "avg_cert": {
+            "value": 0.6881808598836263
+          }
+        },
+        {
+          "key": "courses-idpf1-category-malware_analysis",
+          "doc_count": 15,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-podcasting",
+          "doc_count": 15,
+          "avg_cert": {
+            "value": 2.6215141932169597
+          }
+        },
+        {
+          "key": "courses-idpf1-category-reverse_engineering",
+          "doc_count": 15,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-self_publishing",
+          "doc_count": 15,
+          "avg_cert": {
+            "value": 1.3763617197672526
+          }
+        },
+        {
+          "key": "courses-idpf1-category-jewelry",
+          "doc_count": 14,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-russian",
+          "doc_count": 14,
+          "avg_cert": {
+            "value": 15.827264513288226
+          }
+        },
+        {
+          "key": "courses-idpf1-category-sign_language",
+          "doc_count": 14,
+          "avg_cert": {
+            "value": 33.2373366355896
+          }
+        },
+        {
+          "key": "courses-idpf1-category-toefl",
+          "doc_count": 14,
+          "avg_cert": {
+            "value": 5.712009906768799
+          }
+        },
+        {
+          "key": "courses-idpf1-category-welding",
+          "doc_count": 14,
+          "avg_cert": {
+            "value": 8.110702991485596
+          }
+        },
+        {
+          "key": "courses-idpf1-category-z_os",
+          "doc_count": 14,
+          "avg_cert": {
+            "value": 41.9493465423584
+          }
+        },
+        {
+          "key": "courses-idpf1-category-ableton",
+          "doc_count": 13,
+          "avg_cert": {
+            "value": 4.764329029963567
+          }
+        },
+        {
+          "key": "courses-idpf1-category-ethereum",
+          "doc_count": 13,
+          "avg_cert": {
+            "value": 4.538461538461538
+          }
+        },
+        {
+          "key": "courses-idpf1-category-financial_planning",
+          "doc_count": 13,
+          "avg_cert": {
+            "value": 12.044746398925781
+          }
+        },
+        {
+          "key": "courses-idpf1-category-flask",
+          "doc_count": 13,
+          "avg_cert": {
+            "value": 2.3821645149817834
+          }
+        },
+        {
+          "key": "courses-idpf1-category-human-computer_interaction_(hci)",
+          "doc_count": 13,
+          "avg_cert": {
+            "value": 32.049648138192985
+          }
+        },
+        {
+          "key": "courses-idpf1-category-opencv",
+          "doc_count": 13,
+          "avg_cert": {
+            "value": 10.965372452369103
+          }
+        },
+        {
+          "key": "courses-idpf1-category-sas",
+          "doc_count": 13,
+          "avg_cert": {
+            "value": 3.970274191636306
+          }
+        },
+        {
+          "key": "courses-idpf1-category-adobe_dreamweaver",
+          "doc_count": 12,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-assembly_language",
+          "doc_count": 12,
+          "avg_cert": {
+            "value": 0.8602260748545328
+          }
+        },
+        {
+          "key": "courses-idpf1-category-cinematography",
+          "doc_count": 12,
+          "avg_cert": {
+            "value": 16.583333333333332
+          }
+        },
+        {
+          "key": "courses-idpf1-category-corporate_social_responsibility",
+          "doc_count": 12,
+          "avg_cert": {
+            "value": 58.49734489123026
+          }
+        },
+        {
+          "key": "courses-idpf1-category-irish",
+          "doc_count": 12,
+          "avg_cert": {
+            "value": 56.5
+          }
+        },
+        {
+          "key": "courses-idpf1-category-microsoft_onenote",
+          "doc_count": 12,
+          "avg_cert": {
+            "value": 0.8602260748545328
+          }
+        },
+        {
+          "key": "courses-idpf1-category-vlsi",
+          "doc_count": 12,
+          "avg_cert": {
+            "value": 6.881808598836263
+          }
+        },
+        {
+          "key": "courses-idpf1-category-windows",
+          "doc_count": 12,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-addiction",
+          "doc_count": 11,
+          "avg_cert": {
+            "value": 29.331402345137164
+          }
+        },
+        {
+          "key": "courses-idpf1-category-affinity",
+          "doc_count": 11,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-comptia_pentest+_(plus)",
+          "doc_count": 11,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-crowdfunding",
+          "doc_count": 11,
+          "avg_cert": {
+            "value": 13.542558063160289
+          }
+        },
+        {
+          "key": "courses-idpf1-category-library_science",
+          "doc_count": 11,
+          "avg_cert": {
+            "value": 9.384284452958541
+          }
+        },
+        {
+          "key": "courses-idpf1-category-microsoft_dynamics",
+          "doc_count": 11,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-microsoft_teams",
+          "doc_count": 11,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-openshift",
+          "doc_count": 11,
+          "avg_cert": {
+            "value": 9.847519354386764
+          }
+        },
+        {
+          "key": "courses-idpf1-category-prototyping",
+          "doc_count": 11,
+          "avg_cert": {
+            "value": 3.753713781183416
+          }
+        },
+        {
+          "key": "courses-idpf1-category-sports_management",
+          "doc_count": 11,
+          "avg_cert": {
+            "value": 56.90619442679665
+          }
+        },
+        {
+          "key": "courses-idpf1-category-trigonometry",
+          "doc_count": 11,
+          "avg_cert": {
+            "value": 20.815285335887562
+          }
+        },
+        {
+          "key": "courses-idpf1-category-visual_basic",
+          "doc_count": 11,
+          "avg_cert": {
+            "value": 2.815285335887562
+          }
+        },
+        {
+          "key": "courses-idpf1-category-comptia_security+_(plus)",
+          "doc_count": 10,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-criminology",
+          "doc_count": 10,
+          "avg_cert": {
+            "value": 29.69681386947632
+          }
+        },
+        {
+          "key": "courses-idpf1-category-dance",
+          "doc_count": 10,
+          "avg_cert": {
+            "value": 7.964542579650879
+          }
+        },
+        {
+          "key": "courses-idpf1-category-fluid_mechanics",
+          "doc_count": 10,
+          "avg_cert": {
+            "value": 5.161356449127197
+          }
+        },
+        {
+          "key": "courses-idpf1-category-google_drive",
+          "doc_count": 10,
+          "avg_cert": {
+            "value": 4.1290851593017575
+          }
+        },
+        {
+          "key": "courses-idpf1-category-istqb",
+          "doc_count": 10,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-italian",
+          "doc_count": 10,
+          "avg_cert": {
+            "value": 4.4
+          }
+        },
+        {
+          "key": "courses-idpf1-category-macramé",
+          "doc_count": 10,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-salt",
+          "doc_count": 10,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-software_defined_networking",
+          "doc_count": 10,
+          "avg_cert": {
+            "value": 60.73227128982544
+          }
+        },
+        {
+          "key": "courses-idpf1-category-swedish",
+          "doc_count": 10,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-tiktok_marketing",
+          "doc_count": 10,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-adobe_spark",
+          "doc_count": 9,
+          "avg_cert": {
+            "value": 6.881808598836263
+          }
+        },
+        {
+          "key": "courses-idpf1-category-autodesk_revit",
+          "doc_count": 9,
+          "avg_cert": {
+            "value": 15.444444444444445
+          }
+        },
+        {
+          "key": "courses-idpf1-category-business_process_management",
+          "doc_count": 9,
+          "avg_cert": {
+            "value": 1.1469680998060439
+          }
+        },
+        {
+          "key": "courses-idpf1-category-elasticsearch",
+          "doc_count": 9,
+          "avg_cert": {
+            "value": 13.146968099806044
+          }
+        },
+        {
+          "key": "courses-idpf1-category-esports",
+          "doc_count": 9,
+          "avg_cert": {
+            "value": 4.5878723992241754
+          }
+        },
+        {
+          "key": "courses-idpf1-category-firebase",
+          "doc_count": 9,
+          "avg_cert": {
+            "value": 1.1469680998060439
+          }
+        },
+        {
+          "key": "courses-idpf1-category-gamification",
+          "doc_count": 9,
+          "avg_cert": {
+            "value": 7.702523655361599
+          }
+        },
+        {
+          "key": "courses-idpf1-category-gmat",
+          "doc_count": 9,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-google_docs",
+          "doc_count": 9,
+          "avg_cert": {
+            "value": 6.881808598836263
+          }
+        },
+        {
+          "key": "courses-idpf1-category-itil",
+          "doc_count": 9,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-mailchimp",
+          "doc_count": 9,
+          "avg_cert": {
+            "value": 10.322712898254395
+          }
+        },
+        {
+          "key": "courses-idpf1-category-patents",
+          "doc_count": 9,
+          "avg_cert": {
+            "value": 11.326253043280708
+          }
+        },
+        {
+          "key": "courses-idpf1-category-sanskrit",
+          "doc_count": 9,
+          "avg_cert": {
+            "value": 10.322712898254395
+          }
+        },
+        {
+          "key": "courses-idpf1-category-substance",
+          "doc_count": 9,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-apache_airflow",
+          "doc_count": 8,
+          "avg_cert": {
+            "value": 13.6653391122818
+          }
+        },
+        {
+          "key": "courses-idpf1-category-augmented_reality",
+          "doc_count": 8,
+          "avg_cert": {
+            "value": 7.375
+          }
+        },
+        {
+          "key": "courses-idpf1-category-chess",
+          "doc_count": 8,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-cissp",
+          "doc_count": 8,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-dart",
+          "doc_count": 8,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-gardening",
+          "doc_count": 8,
+          "avg_cert": {
+            "value": 5.5
+          }
+        },
+        {
+          "key": "courses-idpf1-category-korean",
+          "doc_count": 8,
+          "avg_cert": {
+            "value": 22.9153391122818
+          }
+        },
+        {
+          "key": "courses-idpf1-category-logic_pro",
+          "doc_count": 8,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-microbiology",
+          "doc_count": 8,
+          "avg_cert": {
+            "value": 21.201695561408997
+          }
+        },
+        {
+          "key": "courses-idpf1-category-netlogo",
+          "doc_count": 8,
+          "avg_cert": {
+            "value": 9.032373785972595
+          }
+        },
+        {
+          "key": "courses-idpf1-category-sass",
+          "doc_count": 8,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-cannabis",
+          "doc_count": 7,
+          "avg_cert": {
+            "value": 21.51622349875314
+          }
+        },
+        {
+          "key": "courses-idpf1-category-clickbank",
+          "doc_count": 7,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-cobol",
+          "doc_count": 7,
+          "avg_cert": {
+            "value": 7.373366355895996
+          }
+        },
+        {
+          "key": "courses-idpf1-category-comptia_network+_(plus)",
+          "doc_count": 7,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-crochet",
+          "doc_count": 7,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-flutter",
+          "doc_count": 7,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-fpga",
+          "doc_count": 7,
+          "avg_cert": {
+            "value": 4.424019813537598
+          }
+        },
+        {
+          "key": "courses-idpf1-category-gmail",
+          "doc_count": 7,
+          "avg_cert": {
+            "value": 4.424019813537598
+          }
+        },
+        {
+          "key": "courses-idpf1-category-google_forms",
+          "doc_count": 7,
+          "avg_cert": {
+            "value": 5.898693084716797
+          }
+        },
+        {
+          "key": "courses-idpf1-category-hindi",
+          "doc_count": 7,
+          "avg_cert": {
+            "value": 8.848039627075195
+          }
+        },
+        {
+          "key": "courses-idpf1-category-interior_design",
+          "doc_count": 7,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-julia",
+          "doc_count": 7,
+          "avg_cert": {
+            "value": 8.848039627075195
+          }
+        },
+        {
+          "key": "courses-idpf1-category-microsoft_onedrive",
+          "doc_count": 7,
+          "avg_cert": {
+            "value": 1.4746732711791992
+          }
+        },
+        {
+          "key": "courses-idpf1-category-portuguese",
+          "doc_count": 7,
+          "avg_cert": {
+            "value": 10.571428571428571
+          }
+        },
+        {
+          "key": "courses-idpf1-category-seaborn",
+          "doc_count": 7,
+          "avg_cert": {
+            "value": 7.373366355895996
+          }
+        },
+        {
+          "key": "courses-idpf1-category-sewing",
+          "doc_count": 7,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-trello",
+          "doc_count": 7,
+          "avg_cert": {
+            "value": 10.322712898254395
+          }
+        },
+        {
+          "key": "courses-idpf1-category-adobe_audition",
+          "doc_count": 6,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-anti-racism",
+          "doc_count": 6,
+          "avg_cert": {
+            "value": 21.440904299418133
+          }
+        },
+        {
+          "key": "courses-idpf1-category-audacity",
+          "doc_count": 6,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-bass_guitar",
+          "doc_count": 6,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-chef",
+          "doc_count": 6,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-confluence",
+          "doc_count": 6,
+          "avg_cert": {
+            "value": 3.4409042994181314
+          }
+        },
+        {
+          "key": "courses-idpf1-category-dialogflow",
+          "doc_count": 6,
+          "avg_cert": {
+            "value": 8.602260748545328
+          }
+        },
+        {
+          "key": "courses-idpf1-category-google_adsense",
+          "doc_count": 6,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-iso_certification",
+          "doc_count": 6,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-norwegian",
+          "doc_count": 6,
+          "avg_cert": {
+            "value": 54.166666666666664
+          }
+        },
+        {
+          "key": "courses-idpf1-category-terraform",
+          "doc_count": 6,
+          "avg_cert": {
+            "value": 3.4409042994181314
+          }
+        },
+        {
+          "key": "courses-idpf1-category-camtasia",
+          "doc_count": 5,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-hibernate",
+          "doc_count": 5,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-moodle",
+          "doc_count": 5,
+          "avg_cert": {
+            "value": 4.1290851593017575
+          }
+        },
+        {
+          "key": "courses-idpf1-category-pricing_strategy",
+          "doc_count": 5,
+          "avg_cert": {
+            "value": 2.0645425796508787
+          }
+        },
+        {
+          "key": "courses-idpf1-category-self_defense",
+          "doc_count": 5,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-semantic_web",
+          "doc_count": 5,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-solar_energy",
+          "doc_count": 5,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-unsupervised_learning",
+          "doc_count": 5,
+          "avg_cert": {
+            "value": 8.258170318603515
+          }
+        },
+        {
+          "key": "courses-idpf1-category-acting",
+          "doc_count": 4,
+          "avg_cert": {
+            "value": 14.75
+          }
+        },
+        {
+          "key": "courses-idpf1-category-alexa_development",
+          "doc_count": 4,
+          "avg_cert": {
+            "value": 11
+          }
+        },
+        {
+          "key": "courses-idpf1-category-appium",
+          "doc_count": 4,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-arcgis",
+          "doc_count": 4,
+          "avg_cert": {
+            "value": 37.25
+          }
+        },
+        {
+          "key": "courses-idpf1-category-asana",
+          "doc_count": 4,
+          "avg_cert": {
+            "value": 10.322712898254395
+          }
+        },
+        {
+          "key": "courses-idpf1-category-catia",
+          "doc_count": 4,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-cost_accounting",
+          "doc_count": 4,
+          "avg_cert": {
+            "value": 2.5806782245635986
+          }
+        },
+        {
+          "key": "courses-idpf1-category-garageband",
+          "doc_count": 4,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-prince2",
+          "doc_count": 4,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-puppet",
+          "doc_count": 4,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-react_native",
+          "doc_count": 4,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-urdu",
+          "doc_count": 4,
+          "avg_cert": {
+            "value": 10.322712898254395
+          }
+        },
+        {
+          "key": "courses-idpf1-category-.net_core",
+          "doc_count": 3,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-ap_exam",
+          "doc_count": 3,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-business_development",
+          "doc_count": 3,
+          "avg_cert": {
+            "value": 13.333333333333334
+          }
+        },
+        {
+          "key": "courses-idpf1-category-carnatic_music",
+          "doc_count": 3,
+          "avg_cert": {
+            "value": 3.4409042994181314
+          }
+        },
+        {
+          "key": "courses-idpf1-category-content_writing",
+          "doc_count": 3,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-crafts",
+          "doc_count": 3,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-elixir",
+          "doc_count": 3,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-f_",
+          "doc_count": 3,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-google_slides",
+          "doc_count": 3,
+          "avg_cert": {
+            "value": 10.322712898254395
+          }
+        },
+        {
+          "key": "courses-idpf1-category-knitting",
+          "doc_count": 3,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-objective_c",
+          "doc_count": 3,
+          "avg_cert": {
+            "value": 3.4409042994181314
+          }
+        },
+        {
+          "key": "courses-idpf1-category-perl",
+          "doc_count": 3,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-pottery",
+          "doc_count": 3,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-servicenow",
+          "doc_count": 3,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-signal_processing",
+          "doc_count": 3,
+          "avg_cert": {
+            "value": 3.4409042994181314
+          }
+        },
+        {
+          "key": "courses-idpf1-category-adobe_captivate",
+          "doc_count": 2,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-altium_designer",
+          "doc_count": 2,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-apache_solr",
+          "doc_count": 2,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-banjo",
+          "doc_count": 2,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-botany",
+          "doc_count": 2,
+          "avg_cert": {
+            "value": 5.161356449127197
+          }
+        },
+        {
+          "key": "courses-idpf1-category-cartography",
+          "doc_count": 2,
+          "avg_cert": {
+            "value": 50
+          }
+        },
+        {
+          "key": "courses-idpf1-category-cloud_foundry",
+          "doc_count": 2,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-gre",
+          "doc_count": 2,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-harmonica",
+          "doc_count": 2,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-haskell",
+          "doc_count": 2,
+          "avg_cert": {
+            "value": 44.5
+          }
+        },
+        {
+          "key": "courses-idpf1-category-qualitative_research",
+          "doc_count": 2,
+          "avg_cert": {
+            "value": 79
+          }
+        },
+        {
+          "key": "courses-idpf1-category-rexx",
+          "doc_count": 2,
+          "avg_cert": {
+            "value": 54.6613564491272
+          }
+        },
+        {
+          "key": "courses-idpf1-category-tailwind",
+          "doc_count": 2,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-thai",
+          "doc_count": 2,
+          "avg_cert": {
+            "value": 22
+          }
+        },
+        {
+          "key": "courses-idpf1-category-turkish",
+          "doc_count": 2,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-xml",
+          "doc_count": 2,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-accents",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-active_directory",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-activecampaign",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-akka",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-apache_cassandra",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-baseball",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-beaglebone",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-beekeeping",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 10.322712898254395
+          }
+        },
+        {
+          "key": "courses-idpf1-category-beer_brewing",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-bioeconomics",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 44
+          }
+        },
+        {
+          "key": "courses-idpf1-category-braille",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-cobit",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-creo_cad",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-cuda",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-drums",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-dutch",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 74
+          }
+        },
+        {
+          "key": "courses-idpf1-category-gitlab",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-handwriting",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-jlpt_exam",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-neo4j",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-sensors",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-sentiment_analysis",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 10.322712898254395
+          }
+        },
+        {
+          "key": "courses-idpf1-category-technical_writing",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-ukulele",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        },
+        {
+          "key": "courses-idpf1-category-upholstery",
+          "doc_count": 1,
+          "avg_cert": {
+            "value": 0
+          }
+        }
+      ]
+    }
+  }
+}

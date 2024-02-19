@@ -1,0 +1,10 @@
+{
+  "query": {
+    "range": {
+      "certificate_price": {
+        "gte": 60,
+        "lte": 90
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "size": 0,
+  "aggs": {
+    "platform_grouping": {
+      "terms": {
+        "field": "_index",
+        "size": 100000
+      },
+      "aggs": {
+        "subs_grouping": {
+          "top_hits": {
+            "sort": [
+              {
+                "subtitles_count": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "size": 3
+          }
+        }
+      }
+    }
+  }
+}

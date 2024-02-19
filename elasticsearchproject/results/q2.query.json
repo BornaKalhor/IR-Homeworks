@@ -1,0 +1,9 @@
+{
+  "query": {
+    "match": {
+      "platform": "edX"
+    }
+  },
+  "from": 0,
+  "size": 1000
+}

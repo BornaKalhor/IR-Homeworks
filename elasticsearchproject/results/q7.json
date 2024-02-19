@@ -1,0 +1,31 @@
+{
+  "took": 88,
+  "timed_out": false,
+  "num_reduce_phases": 4,
+  "_shards": {
+    "total": 1640,
+    "successful": 1640,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "byindex": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 23458,
+      "buckets": [
+        {
+          "key": "courses-idpf1-presenter-_institution_nptel",
+          "doc_count": 1976
+        }
+      ]
+    }
+  }
+}

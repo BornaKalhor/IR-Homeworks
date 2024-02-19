@@ -1,0 +1,24 @@
+{
+  "size": 1,
+  "sort": [
+    {
+      "certificate_price": "desc"
+    }
+  ],
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "level": "Intermediate"
+          }
+        },
+        {
+          "match": {
+            "language": "English"
+          }
+        }
+      ]
+    }
+  }
+}

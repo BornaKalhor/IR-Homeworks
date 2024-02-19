@@ -1,0 +1,18 @@
+{
+  "size": 0,
+  "aggs": {
+    "byindex": {
+      "terms": {
+        "field": "_index",
+        "size": 100000
+      },
+      "aggs": {
+        "avg_cert": {
+          "avg": {
+            "field": "certificate_price"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "size": 0,
+  "aggs": {
+    "byindex": {
+      "terms": {
+        "field": "_index",
+        "size": 1
+      }
+    }
+  }
+}
